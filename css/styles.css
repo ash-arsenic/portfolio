@@ -18,7 +18,7 @@ Variables
   --clr-primary-3: hsl(43, 72%, 37%);
   --clr-primary-4: hsl(42, 63%, 48%);
   /* primary/main color */
-  --clr-primary-5: hsl(42, 78%, 60%);
+  --clr-primary-5: #e9b949;
   /* lighter shades of primary color */
   --clr-primary-6: hsl(43, 89%, 70%);
   --clr-primary-7: hsl(43, 90%, 76%);
@@ -717,6 +717,18 @@ Skills
 .value-80 {
   width: 80%;
 }
+.value-30 {
+  width: 30%;
+}
+.value-40 {
+  width: 40%;
+}
+.value-60 {
+  width: 60%;
+}
+.value-20 {
+  width: 20%;
+}
 .skill-text {
   position: absolute;
   top: -2rem;
@@ -729,6 +741,18 @@ Skills
 }
 .skill-text-80 {
   left: 80%;
+}
+.skill-text-30 {
+  left: 30%;
+}
+.skill-text-40 {
+  left: 40%;
+}
+.skill-text-60 {
+  left: 60%;
+}
+.skill-text-20 {
+  left: 20%;
 }
 /*
 =============== 
@@ -850,6 +874,9 @@ Blog
   object-fit: cover;
   border-top-left-radius: var(--radius);
   border-top-right-radius: var(--radius);
+}
+.my-image {
+  height: 220px;
 }
 .card-footer {
   display: grid;
