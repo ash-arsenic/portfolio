@@ -153,7 +153,17 @@ p {
 .section {
   padding: 5rem 0;
 }
-
+.my-icon {
+  font-size: 1.5rem;
+  color: #000;
+  text-shadow: 2px 2px 2px #ccc;
+  letter-spacing: 5px;
+}
+@media screen and (min-width: 768px) {
+  .my-icon {
+    font-size: 2rem;
+  }
+}
 .section-center {
   width: 90vw;
   margin: 0 auto;
